@@ -52,8 +52,6 @@ const CelestialBodyCard: React.FC<CelestialBodyCardProps> = ({
           {isPlaying ? "Pause" : "Play"}
         </Button>
       </CardFooter>
-      <Button traductor="switch" size="sm" onClickCapture={}>
-        <Button/>
       <CardContent className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <h2 className="text-lg font-semibold">Details</h2>
